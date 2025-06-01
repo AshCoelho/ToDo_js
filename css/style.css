@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(to right, #e6199b, #34073d);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#task-container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#tasks-header {
+    margin-bottom: 20px;
+}
+
+#add-task-form {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#add-task-form input {
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid #34073d;
+    background: white;
+    color: #34073d;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    min-width: 200px;
+}
+
+#add-task-form input::placeholder {
+    color: #34073d;
+}
+
+#add-task-form input:focus {
+    outline: none;
+    border-color: #e6199b;
+}
+
+#add-btn {
+    background: white;
+    border: 1px solid #34073d;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-btn:hover {
+    background-color: #34073d;
+    color: white;
+}
+
+ion-icon {
+    font-size: 20px;
+}
+
+/* Tarefas */
+#task-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+#task-list li {
+    position: relative;
+    padding: 10px 50px 10px 15px;
+    background-color: white;
+    color: #34073d;
+    border-radius: 6px;
+    border-bottom: 3px solid #34073d;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#task-list ion-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.done-btn {
+    right: 40px;
+}
+
+.remove-btn {
+    right: 10px;
+}
+
+.done-btn:hover {
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+}
+
+.remove-btn:hover {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+#task-list li.done {
+    background-color: #34073d;
+    color: white;
+    text-decoration: line-through;
+}
+
+/* Esconde elementos com a classe 'hide' */
+.hide {
+    display: none;
+}
+
+
