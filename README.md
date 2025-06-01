@@ -15,8 +15,21 @@ A interface é intuitiva, com um input para digitar uma nova tarefa e botões pa
 - ❌ Remover tarefa
 - 🧼 Limpeza automática do campo após adicionar
 
+
+##  💡 Tecnologias Utilizadas
+
+- HTML5
+- CSS3 (com gradiente e sombras para estilo moderno)
+- JavaScript Vanilla (sem bibliotecas/frameworks)
+
+##  ✨ Visual
+O fundo usa um gradiente roxo moderno e o conteúdo está centralizado com sombras para destacar a caixa de tarefas.
+
+##  🤝 Contribuição
+Fique à vontade para abrir issues ou pull requests com melhorias ou sugestões.
+
 ## 🧠 Lógica Principal (JavaScript)
-javascript
+``` javascript
     function addTask() {
         const taskTitle = document.querySelector("#task-title").value;
         if (taskTitle) {
@@ -47,14 +60,3 @@ javascript
     });
 
 
-##  💡 Tecnologias Utilizadas
-
-- HTML5
-- CSS3 (com gradiente e sombras para estilo moderno)
-- JavaScript Vanilla (sem bibliotecas/frameworks)
-
-##  ✨ Visual
-O fundo usa um gradiente roxo moderno e o conteúdo está centralizado com sombras para destacar a caixa de tarefas.
-
-##  🤝 Contribuição
-Fique à vontade para abrir issues ou pull requests com melhorias ou sugestões.
