@@ -6,7 +6,7 @@ Este é um projeto de lista de tarefas desenvolvido com **HTML**, **CSS** e **Ja
 
 A interface é intuitiva, com um input para digitar uma nova tarefa e botões para adicionar, completar ou remover tarefas.
 
-![Interface do projeto](./Captura%20de%20Tela%20(110).png)
+![Descrição da imagem](img/Captura%20de%20Tela%20(110).png)
 
 ## 🚀 Funcionalidades
 
