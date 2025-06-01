@@ -20,7 +20,7 @@ A interface é intuitiva, com um input para digitar uma nova tarefa e botões pa
 
 - HTML5
 - CSS3 (com gradiente e sombras para estilo moderno)
-- JavaScript Vanilla (sem bibliotecas/frameworks)
+- JavaScript (sem bibliotecas/frameworks)
 
 ##  ✨ Visual
 O fundo usa um gradiente roxo moderno e o conteúdo está centralizado com sombras para destacar a caixa de tarefas.
